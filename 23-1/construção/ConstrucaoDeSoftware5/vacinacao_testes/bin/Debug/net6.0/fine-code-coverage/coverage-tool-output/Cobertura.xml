@@ -1,0 +1,2373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.691119691119691" branch-rate="0.787234042553192" lines-covered="537" lines-valid="777" branches-covered="37" branches-valid="47" complexity="192" version="0" timestamp="1682856130">
+  <sources>
+    <source>C:\Users\joaopedrosf\</source>
+  </sources>
+  <packages>
+    <package name="vacinacao_backend" line-rate="0.495762711864407" branch-rate="0.743589743589744" complexity="151">
+      <classes>
+        <class name="vacinacao_backend.Controllers.AgendaController" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Controllers\AgendaController.cs" line-rate="0" branch-rate="1" complexity="7">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteAgendamento" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="71" hits="0" branch="false" />
+                <line number="72" hits="0" branch="false" />
+                <line number="73" hits="0" branch="false" />
+                <line number="74" hits="0" branch="false" />
+                <line number="76" hits="0" branch="false" />
+                <line number="77" hits="0" branch="false" />
+                <line number="79" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAgendamentosByData" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAgendamentosBySituacao" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllAgendamentos" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="PostAgendamento" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+                <line number="64" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="67" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="PutSituacaoAgendamento" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="86" hits="0" branch="false" />
+                <line number="87" hits="0" branch="false" />
+                <line number="88" hits="0" branch="false" />
+                <line number="89" hits="0" branch="false" />
+                <line number="91" hits="0" branch="false" />
+                <line number="92" hits="0" branch="false" />
+                <line number="94" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="67" hits="0" branch="false" />
+            <line number="71" hits="0" branch="false" />
+            <line number="72" hits="0" branch="false" />
+            <line number="73" hits="0" branch="false" />
+            <line number="74" hits="0" branch="false" />
+            <line number="76" hits="0" branch="false" />
+            <line number="77" hits="0" branch="false" />
+            <line number="79" hits="0" branch="false" />
+            <line number="86" hits="0" branch="false" />
+            <line number="87" hits="0" branch="false" />
+            <line number="88" hits="0" branch="false" />
+            <line number="89" hits="0" branch="false" />
+            <line number="91" hits="0" branch="false" />
+            <line number="92" hits="0" branch="false" />
+            <line number="94" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Controllers.AlergiaController" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Controllers\AlergiaController.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteAlergia" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllAlergias" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="PostAlergia" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Controllers.LoginController" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Controllers\LoginController.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Login" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Controllers.UsuarioController" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Controllers\UsuarioController.cs" line-rate="0" branch-rate="1" complexity="6">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteUsuario" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="66" hits="0" branch="false" />
+                <line number="67" hits="0" branch="false" />
+                <line number="68" hits="0" branch="false" />
+                <line number="69" hits="0" branch="false" />
+                <line number="71" hits="0" branch="false" />
+                <line number="72" hits="0" branch="false" />
+                <line number="74" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllUsuarios" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetUsuarioById" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="PostUsuario" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="PostUsuarioAdmin" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="0" branch="false" />
+                <line number="56" hits="0" branch="false" />
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="63" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="67" hits="0" branch="false" />
+            <line number="68" hits="0" branch="false" />
+            <line number="69" hits="0" branch="false" />
+            <line number="71" hits="0" branch="false" />
+            <line number="72" hits="0" branch="false" />
+            <line number="74" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Controllers.VacinaController" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Controllers\VacinaController.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteVacina" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllVacinas" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="PostVacina" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Exceptions.AgendamentoInvalidoException" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Exceptions\AgendamentoInvalidoException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="9" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="9" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Exceptions.UsuarioMenorDeIdadeException" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Exceptions\UsuarioMenorDeIdadeException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Exceptions.UsuarioNaoEncontradoException" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Exceptions\UsuarioNaoEncontradoException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Exceptions.VacinaNaoEncontradaException" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Exceptions\VacinaNaoEncontradaException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Models.Agenda" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Models\Agenda.cs" line-rate="0.833333333333333" branch-rate="1" complexity="11">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Data" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="120" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Situacao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="71" branch="false" />
+              </lines>
+            </method>
+            <method name="get_DataSituacao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="54" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Observacoes" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="55" branch="false" />
+              </lines>
+            </method>
+            <method name="get_VacinaId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="102" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Vacina" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_UsuarioId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="104" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Usuario" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="147" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="44" branch="false" />
+                <line number="20" hits="22" branch="false" />
+                <line number="21" hits="22" branch="false" />
+                <line number="22" hits="22" branch="false" />
+                <line number="23" hits="22" branch="false" />
+                <line number="24" hits="22" branch="false" />
+                <line number="25" hits="22" branch="false" />
+                <line number="26" hits="22" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false" />
+            <line number="6" hits="120" branch="false" />
+            <line number="7" hits="71" branch="false" />
+            <line number="8" hits="54" branch="false" />
+            <line number="9" hits="55" branch="false" />
+            <line number="11" hits="102" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="14" hits="104" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="17" hits="147" branch="false" />
+            <line number="19" hits="44" branch="false" />
+            <line number="20" hits="22" branch="false" />
+            <line number="21" hits="22" branch="false" />
+            <line number="22" hits="22" branch="false" />
+            <line number="23" hits="22" branch="false" />
+            <line number="24" hits="22" branch="false" />
+            <line number="25" hits="22" branch="false" />
+            <line number="26" hits="22" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Models.Alergia" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Models\Alergia.cs" line-rate="0.6" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="get_VacinaId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Vacina" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Usuarios" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="2" branch="false" />
+            <line number="4" hits="4" branch="false" />
+            <line number="5" hits="3" branch="false" />
+            <line number="6" hits="0" branch="false" />
+            <line number="7" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Models.DTOs.InsertUsuarioDTO" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Models\DTOs\InsertUsuarioDTO.cs" line-rate="0.923076923076923" branch-rate="1" complexity="13">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_DataNascimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Sexo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Logradouro" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Numero" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Setor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Cidade" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_UF" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IsAdmin" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Senha" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Alergias" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="22" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false" />
+            <line number="6" hits="38" branch="false" />
+            <line number="7" hits="38" branch="false" />
+            <line number="8" hits="38" branch="false" />
+            <line number="9" hits="38" branch="false" />
+            <line number="10" hits="38" branch="false" />
+            <line number="11" hits="38" branch="false" />
+            <line number="12" hits="38" branch="false" />
+            <line number="13" hits="38" branch="false" />
+            <line number="14" hits="19" branch="false" />
+            <line number="15" hits="38" branch="false" />
+            <line number="16" hits="38" branch="false" />
+            <line number="17" hits="22" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Models.DTOs.LoginRequestDTO" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Models\DTOs\LoginRequestDTO.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Email" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Senha" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Models.DTOs.LoginResponseDTO" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Models\DTOs\LoginResponseDTO.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_AccessToken" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Models.Usuario" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Models\Usuario.cs" line-rate="0.923076923076923" branch-rate="0.5" complexity="23">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name="get_DataNascimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="95" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Sexo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Logradouro" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Numero" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Setor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Cidade" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_UF" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IsAdmin" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="38" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Senha" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Agendamentos" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Alergias" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="35" branch="false" />
+              </lines>
+            </method>
+            <method name="GetIdade" signature="()" line-rate="0.75" branch-rate="0.5" complexity="6">
+              <lines>
+                <line number="39" hits="19" branch="false" />
+                <line number="40" hits="19" branch="false" />
+                <line number="41" hits="19" branch="false" />
+                <line number="43" hits="19" branch="true" condition-coverage="50% (3/6)" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="47" hits="19" branch="false" />
+                <line number="48" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="IsUsuarioMaiorDeIdade" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="50" hits="19" branch="false" />
+                <line number="51" hits="19" branch="false" />
+                <line number="52" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="138" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="38" branch="false" />
+                <line number="26" hits="19" branch="false" />
+                <line number="27" hits="19" branch="false" />
+                <line number="28" hits="19" branch="false" />
+                <line number="29" hits="19" branch="false" />
+                <line number="30" hits="19" branch="false" />
+                <line number="31" hits="19" branch="false" />
+                <line number="32" hits="19" branch="false" />
+                <line number="33" hits="19" branch="false" />
+                <line number="34" hits="19" branch="false" />
+                <line number="35" hits="19" branch="false" />
+                <line number="36" hits="19" branch="false" />
+                <line number="37" hits="19" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="2" branch="false" />
+            <line number="8" hits="20" branch="false" />
+            <line number="9" hits="95" branch="false" />
+            <line number="10" hits="19" branch="false" />
+            <line number="11" hits="19" branch="false" />
+            <line number="12" hits="19" branch="false" />
+            <line number="13" hits="19" branch="false" />
+            <line number="14" hits="19" branch="false" />
+            <line number="15" hits="19" branch="false" />
+            <line number="16" hits="38" branch="false" />
+            <line number="17" hits="19" branch="false" />
+            <line number="19" hits="19" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="35" branch="false" />
+            <line number="23" hits="138" branch="false" />
+            <line number="25" hits="38" branch="false" />
+            <line number="26" hits="19" branch="false" />
+            <line number="27" hits="19" branch="false" />
+            <line number="28" hits="19" branch="false" />
+            <line number="29" hits="19" branch="false" />
+            <line number="30" hits="19" branch="false" />
+            <line number="31" hits="19" branch="false" />
+            <line number="32" hits="19" branch="false" />
+            <line number="33" hits="19" branch="false" />
+            <line number="34" hits="19" branch="false" />
+            <line number="35" hits="19" branch="false" />
+            <line number="36" hits="19" branch="false" />
+            <line number="37" hits="19" branch="false" />
+            <line number="39" hits="19" branch="false" />
+            <line number="40" hits="19" branch="false" />
+            <line number="41" hits="19" branch="false" />
+            <line number="43" hits="19" branch="true" condition-coverage="50% (3/6)" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="47" hits="19" branch="false" />
+            <line number="48" hits="19" branch="false" />
+            <line number="50" hits="19" branch="false" />
+            <line number="51" hits="19" branch="false" />
+            <line number="52" hits="19" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Models.Vacina" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Models\Vacina.cs" line-rate="0.857142857142857" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Titulo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="17" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Descricao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Doses" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="45" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Periodicidade" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="34" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Intervalo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="34" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Agendamentos" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="2" branch="false" />
+            <line number="6" hits="17" branch="false" />
+            <line number="7" hits="16" branch="false" />
+            <line number="8" hits="45" branch="false" />
+            <line number="9" hits="34" branch="false" />
+            <line number="10" hits="34" branch="false" />
+            <line number="12" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Program" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Program.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="54" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="55" hits="0" branch="false" />
+                <line number="56" hits="0" branch="false" />
+                <line number="57" hits="0" branch="false" />
+                <line number="59" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+                <line number="64" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+                <line number="67" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="54" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="55" hits="0" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="57" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="67" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Repositories.VacinacaoContext" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Repositories\VacinacaoContext.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Agendamentos" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="127" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Usuarios" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="91" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Alergias" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="34" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Vacinas" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="79" branch="false" />
+              </lines>
+            </method>
+            <method name="OnModelCreating" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="75" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="127" branch="false" />
+            <line number="9" hits="91" branch="false" />
+            <line number="10" hits="34" branch="false" />
+            <line number="11" hits="79" branch="false" />
+            <line number="13" hits="75" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Services.AgendaService" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Services\AgendaService.cs" line-rate="1" branch-rate="0.952380952380952" complexity="30">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="34" branch="false" />
+                <line number="13" hits="17" branch="false" />
+                <line number="14" hits="17" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteAgendamento" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="87" hits="2" branch="false" />
+                <line number="88" hits="2" branch="false" />
+                <line number="89" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="90" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="94" hits="1" branch="false" />
+                <line number="95" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="FindAgendamentosByData" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="FindAgendamentosBySituacao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+                <line number="22" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="FindAllAgendamentos" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="9" branch="false" />
+                <line number="17" hits="9" branch="false" />
+                <line number="18" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAgendamento" signature="()" line-rate="1" branch-rate="0.947368421052632" complexity="23">
+              <lines>
+                <line number="28" hits="20" branch="false" />
+                <line number="29" hits="20" branch="false" />
+                <line number="31" hits="21" branch="true" condition-coverage="100% (2/2)" />
+                <line number="32" hits="1" branch="false" />
+                <line number="34" hits="20" branch="true" condition-coverage="100% (2/2)" />
+                <line number="35" hits="1" branch="false" />
+                <line number="38" hits="18" branch="false" />
+                <line number="40" hits="19" branch="true" condition-coverage="100% (2/2)" />
+                <line number="41" hits="1" branch="false" />
+                <line number="44" hits="19" branch="true" condition-coverage="50% (1/2)" />
+                <line number="45" hits="1" branch="false" />
+                <line number="48" hits="16" branch="false" />
+                <line number="50" hits="24" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="54" hits="21" branch="false" />
+                <line number="55" hits="16" branch="true" condition-coverage="100% (2/2)" />
+                <line number="56" hits="1" branch="false" />
+                <line number="59" hits="14" branch="false" />
+                <line number="61" hits="14" branch="false" />
+                <line number="62" hits="94" branch="true" condition-coverage="100% (2/2)" />
+                <line number="63" hits="22" branch="false" />
+                <line number="64" hits="22" branch="false" />
+                <line number="65" hits="22" branch="true" condition-coverage="100% (7/7)" />
+                <line number="67" hits="2" branch="false" />
+                <line number="68" hits="2" branch="false" />
+                <line number="70" hits="2" branch="false" />
+                <line number="71" hits="2" branch="false" />
+                <line number="73" hits="16" branch="false" />
+                <line number="74" hits="16" branch="false" />
+                <line number="76" hits="2" branch="false" />
+                <line number="77" hits="2" branch="false" />
+                <line number="79" hits="22" branch="false" />
+                <line number="80" hits="22" branch="false" />
+                <line number="81" hits="22" branch="false" />
+                <line number="82" hits="22" branch="false" />
+                <line number="83" hits="14" branch="false" />
+                <line number="84" hits="14" branch="false" />
+                <line number="85" hits="14" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateSituacaoAgendamento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="97" hits="10" branch="false" />
+                <line number="98" hits="10" branch="false" />
+                <line number="99" hits="10" branch="false" />
+                <line number="100" hits="10" branch="false" />
+                <line number="101" hits="10" branch="false" />
+                <line number="102" hits="10" branch="false" />
+                <line number="103" hits="10" branch="false" />
+                <line number="104" hits="10" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="34" branch="false" />
+            <line number="13" hits="17" branch="false" />
+            <line number="14" hits="17" branch="false" />
+            <line number="16" hits="9" branch="false" />
+            <line number="17" hits="9" branch="false" />
+            <line number="18" hits="9" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="20" branch="false" />
+            <line number="29" hits="20" branch="false" />
+            <line number="31" hits="21" branch="true" condition-coverage="100% (2/2)" />
+            <line number="32" hits="1" branch="false" />
+            <line number="34" hits="20" branch="true" condition-coverage="100% (2/2)" />
+            <line number="35" hits="1" branch="false" />
+            <line number="38" hits="18" branch="false" />
+            <line number="40" hits="19" branch="true" condition-coverage="100% (2/2)" />
+            <line number="41" hits="1" branch="false" />
+            <line number="44" hits="19" branch="true" condition-coverage="50% (1/2)" />
+            <line number="45" hits="1" branch="false" />
+            <line number="48" hits="16" branch="false" />
+            <line number="50" hits="24" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="54" hits="21" branch="false" />
+            <line number="55" hits="16" branch="true" condition-coverage="100% (2/2)" />
+            <line number="56" hits="1" branch="false" />
+            <line number="59" hits="14" branch="false" />
+            <line number="61" hits="14" branch="false" />
+            <line number="62" hits="94" branch="true" condition-coverage="100% (2/2)" />
+            <line number="63" hits="22" branch="false" />
+            <line number="64" hits="22" branch="false" />
+            <line number="65" hits="22" branch="true" condition-coverage="100% (7/7)" />
+            <line number="67" hits="2" branch="false" />
+            <line number="68" hits="2" branch="false" />
+            <line number="70" hits="2" branch="false" />
+            <line number="71" hits="2" branch="false" />
+            <line number="73" hits="16" branch="false" />
+            <line number="74" hits="16" branch="false" />
+            <line number="76" hits="2" branch="false" />
+            <line number="77" hits="2" branch="false" />
+            <line number="79" hits="22" branch="false" />
+            <line number="80" hits="22" branch="false" />
+            <line number="81" hits="22" branch="false" />
+            <line number="82" hits="22" branch="false" />
+            <line number="83" hits="14" branch="false" />
+            <line number="84" hits="14" branch="false" />
+            <line number="85" hits="14" branch="false" />
+            <line number="87" hits="2" branch="false" />
+            <line number="88" hits="2" branch="false" />
+            <line number="89" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="90" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="97" hits="10" branch="false" />
+            <line number="98" hits="10" branch="false" />
+            <line number="99" hits="10" branch="false" />
+            <line number="100" hits="10" branch="false" />
+            <line number="101" hits="10" branch="false" />
+            <line number="102" hits="10" branch="false" />
+            <line number="103" hits="10" branch="false" />
+            <line number="104" hits="10" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Services.AlergiaService" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Services\AlergiaService.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="6" branch="false" />
+                <line number="11" hits="3" branch="false" />
+                <line number="12" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteAlergia" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="FindAllAlergias" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="3" branch="false" />
+                <line number="15" hits="3" branch="false" />
+                <line number="16" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAlergia" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="3" branch="false" />
+                <line number="19" hits="3" branch="false" />
+                <line number="20" hits="3" branch="false" />
+                <line number="21" hits="3" branch="false" />
+                <line number="22" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="6" branch="false" />
+            <line number="11" hits="3" branch="false" />
+            <line number="12" hits="3" branch="false" />
+            <line number="14" hits="3" branch="false" />
+            <line number="15" hits="3" branch="false" />
+            <line number="16" hits="3" branch="false" />
+            <line number="18" hits="3" branch="false" />
+            <line number="19" hits="3" branch="false" />
+            <line number="20" hits="3" branch="false" />
+            <line number="21" hits="3" branch="false" />
+            <line number="22" hits="3" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Services.LoginService" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Services\LoginService.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GenerateAccessToken" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="false" />
+                <line number="54" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Login" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="false" />
+            <line number="54" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Services.UsuarioService" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Services\UsuarioService.cs" line-rate="0.763157894736842" branch-rate="0.6" complexity="13">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="40" branch="false" />
+                <line number="13" hits="20" branch="false" />
+                <line number="14" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteUsuario" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="FindAllUsuarios" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="3" branch="false" />
+                <line number="17" hits="3" branch="false" />
+                <line number="18" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="FindUsuarioById" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+                <line number="22" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="23" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertUsuario" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="30" hits="19" branch="false" />
+                <line number="31" hits="19" branch="false" />
+                <line number="32" hits="20" branch="true" condition-coverage="100% (4/4)" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="19" branch="false" />
+                <line number="36" hits="19" branch="false" />
+                <line number="37" hits="19" branch="false" />
+                <line number="38" hits="19" branch="false" />
+                <line number="39" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertUsuarioAdmin" signature="()" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="40" branch="false" />
+            <line number="13" hits="20" branch="false" />
+            <line number="14" hits="20" branch="false" />
+            <line number="16" hits="3" branch="false" />
+            <line number="17" hits="3" branch="false" />
+            <line number="18" hits="3" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="22" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="23" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="30" hits="19" branch="false" />
+            <line number="31" hits="19" branch="false" />
+            <line number="32" hits="20" branch="true" condition-coverage="100% (4/4)" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="19" branch="false" />
+            <line number="36" hits="19" branch="false" />
+            <line number="37" hits="19" branch="false" />
+            <line number="38" hits="19" branch="false" />
+            <line number="39" hits="19" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_backend.Services.VacinaService" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_backend\Services\VacinaService.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="32" branch="false" />
+                <line number="11" hits="16" branch="false" />
+                <line number="12" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteVacina" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="FindAllVacinas" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="2" branch="false" />
+                <line number="15" hits="2" branch="false" />
+                <line number="16" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertVacina" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="16" branch="false" />
+                <line number="19" hits="16" branch="false" />
+                <line number="20" hits="16" branch="false" />
+                <line number="21" hits="16" branch="false" />
+                <line number="22" hits="16" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="32" branch="false" />
+            <line number="11" hits="16" branch="false" />
+            <line number="12" hits="16" branch="false" />
+            <line number="14" hits="2" branch="false" />
+            <line number="15" hits="2" branch="false" />
+            <line number="16" hits="2" branch="false" />
+            <line number="18" hits="16" branch="false" />
+            <line number="19" hits="16" branch="false" />
+            <line number="20" hits="16" branch="false" />
+            <line number="21" hits="16" branch="false" />
+            <line number="22" hits="16" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="vacinacao_testes" line-rate="0.99344262295082" branch-rate="1" complexity="41">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\joaopedrosf\.nuget\packages\microsoft.net.test.sdk\17.3.2\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_testes.AgendaTest" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_testes\AgendaTest.cs" line-rate="0.995412844036697" branch-rate="1" complexity="22">
+          <methods>
+            <method name=".cctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="&lt;InsertAgendamentoComVacinaInvalidaLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="216" hits="2" branch="false" />
+                <line number="217" hits="1" branch="false" />
+                <line number="218" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="&lt;InsertAgendamentoEmQueUsuarioJaAgendouAVacinaLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="237" hits="2" branch="false" />
+                <line number="238" hits="1" branch="false" />
+                <line number="239" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="&lt;InsertAgendamentoEmQueUsuarioJaVacinouLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="261" hits="2" branch="false" />
+                <line number="262" hits="1" branch="false" />
+                <line number="263" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="&lt;InsertAgendamentoEmQueUsuarioTemAlergiaDaVacinaLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="312" hits="2" branch="false" />
+                <line number="313" hits="1" branch="false" />
+                <line number="314" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="&lt;DeleteAgendamentoComSituacaoDiferenteDeAgendadoDeveGerarErro" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="178" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="&lt;InsertAgendamentoParaUsuarioInvalidoLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="186" hits="2" branch="false" />
+                <line number="187" hits="1" branch="false" />
+                <line number="188" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="&lt;InsertAgendamentoParaUsuarioMenorDeIdadeLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="201" hits="2" branch="false" />
+                <line number="202" hits="1" branch="false" />
+                <line number="203" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteAgendamentoComSituacaoDiferenteDeAgendadoDeveGerarErro" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="162" hits="1" branch="false" />
+                <line number="163" hits="1" branch="false" />
+                <line number="164" hits="1" branch="false" />
+                <line number="165" hits="1" branch="false" />
+                <line number="166" hits="1" branch="false" />
+                <line number="168" hits="1" branch="false" />
+                <line number="169" hits="1" branch="false" />
+                <line number="171" hits="1" branch="false" />
+                <line number="172" hits="1" branch="false" />
+                <line number="174" hits="1" branch="false" />
+                <line number="175" hits="1" branch="false" />
+                <line number="176" hits="1" branch="false" />
+                <line number="178" hits="3" branch="false" />
+                <line number="179" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteAgendamentosTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="140" hits="1" branch="false" />
+                <line number="141" hits="1" branch="false" />
+                <line number="142" hits="1" branch="false" />
+                <line number="143" hits="1" branch="false" />
+                <line number="144" hits="1" branch="false" />
+                <line number="146" hits="1" branch="false" />
+                <line number="147" hits="1" branch="false" />
+                <line number="149" hits="1" branch="false" />
+                <line number="150" hits="1" branch="false" />
+                <line number="152" hits="1" branch="false" />
+                <line number="153" hits="1" branch="false" />
+                <line number="154" hits="1" branch="false" />
+                <line number="156" hits="1" branch="false" />
+                <line number="158" hits="1" branch="false" />
+                <line number="159" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="FindAgendamentosByDataTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="1" branch="false" />
+                <line number="117" hits="1" branch="false" />
+                <line number="118" hits="1" branch="false" />
+                <line number="119" hits="1" branch="false" />
+                <line number="121" hits="1" branch="false" />
+                <line number="122" hits="1" branch="false" />
+                <line number="124" hits="1" branch="false" />
+                <line number="125" hits="1" branch="false" />
+                <line number="127" hits="1" branch="false" />
+                <line number="128" hits="1" branch="false" />
+                <line number="129" hits="1" branch="false" />
+                <line number="131" hits="1" branch="false" />
+                <line number="132" hits="1" branch="false" />
+                <line number="134" hits="1" branch="false" />
+                <line number="135" hits="1" branch="false" />
+                <line number="136" hits="1" branch="false" />
+                <line number="137" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="FindAgendamentosBySituacaoTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="90" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="94" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+                <line number="102" hits="1" branch="false" />
+                <line number="103" hits="1" branch="false" />
+                <line number="104" hits="1" branch="false" />
+                <line number="106" hits="1" branch="false" />
+                <line number="107" hits="1" branch="false" />
+                <line number="109" hits="1" branch="false" />
+                <line number="110" hits="1" branch="false" />
+                <line number="111" hits="1" branch="false" />
+                <line number="112" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAgendamentoCom1DoseTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAgendamentoComDosesJaRealizadasDeveInserirSomenteAsDosesRestantes" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="267" hits="1" branch="false" />
+                <line number="268" hits="1" branch="false" />
+                <line number="269" hits="1" branch="false" />
+                <line number="270" hits="1" branch="false" />
+                <line number="271" hits="1" branch="false" />
+                <line number="273" hits="1" branch="false" />
+                <line number="274" hits="1" branch="false" />
+                <line number="276" hits="1" branch="false" />
+                <line number="277" hits="1" branch="false" />
+                <line number="279" hits="1" branch="false" />
+                <line number="280" hits="1" branch="false" />
+                <line number="281" hits="1" branch="false" />
+                <line number="282" hits="1" branch="false" />
+                <line number="283" hits="1" branch="false" />
+                <line number="285" hits="1" branch="false" />
+                <line number="286" hits="1" branch="false" />
+                <line number="288" hits="1" branch="false" />
+                <line number="289" hits="1" branch="false" />
+                <line number="290" hits="1" branch="false" />
+                <line number="291" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAgendamentoComMaisDe1DoseTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="4" branch="false" />
+                <line number="40" hits="4" branch="false" />
+                <line number="41" hits="4" branch="false" />
+                <line number="42" hits="4" branch="false" />
+                <line number="43" hits="4" branch="false" />
+                <line number="45" hits="4" branch="false" />
+                <line number="46" hits="4" branch="false" />
+                <line number="48" hits="4" branch="false" />
+                <line number="49" hits="4" branch="false" />
+                <line number="51" hits="4" branch="false" />
+                <line number="52" hits="4" branch="false" />
+                <line number="54" hits="4" branch="false" />
+                <line number="55" hits="4" branch="false" />
+                <line number="57" hits="4" branch="false" />
+                <line number="58" hits="4" branch="false" />
+                <line number="59" hits="4" branch="false" />
+                <line number="60" hits="4" branch="false" />
+                <line number="61" hits="4" branch="false" />
+                <line number="62" hits="4" branch="false" />
+                <line number="63" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAgendamentoComVacinaInvalidaLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="207" hits="1" branch="false" />
+                <line number="208" hits="1" branch="false" />
+                <line number="209" hits="1" branch="false" />
+                <line number="210" hits="1" branch="false" />
+                <line number="212" hits="1" branch="false" />
+                <line number="213" hits="1" branch="false" />
+                <line number="215" hits="1" branch="false" />
+                <line number="216" hits="2" branch="false" />
+                <line number="217" hits="1" branch="false" />
+                <line number="218" hits="1" branch="false" />
+                <line number="219" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAgendamentoEmQueUsuarioJaAgendouAVacinaLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="222" hits="1" branch="false" />
+                <line number="223" hits="1" branch="false" />
+                <line number="224" hits="1" branch="false" />
+                <line number="225" hits="1" branch="false" />
+                <line number="226" hits="1" branch="false" />
+                <line number="228" hits="1" branch="false" />
+                <line number="229" hits="1" branch="false" />
+                <line number="231" hits="1" branch="false" />
+                <line number="232" hits="1" branch="false" />
+                <line number="234" hits="1" branch="false" />
+                <line number="235" hits="1" branch="false" />
+                <line number="237" hits="2" branch="false" />
+                <line number="238" hits="1" branch="false" />
+                <line number="239" hits="1" branch="false" />
+                <line number="240" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAgendamentoEmQueUsuarioJaVacinouLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="243" hits="1" branch="false" />
+                <line number="244" hits="1" branch="false" />
+                <line number="245" hits="1" branch="false" />
+                <line number="246" hits="1" branch="false" />
+                <line number="247" hits="1" branch="false" />
+                <line number="249" hits="1" branch="false" />
+                <line number="250" hits="1" branch="false" />
+                <line number="252" hits="1" branch="false" />
+                <line number="253" hits="1" branch="false" />
+                <line number="255" hits="1" branch="false" />
+                <line number="256" hits="1" branch="false" />
+                <line number="257" hits="1" branch="false" />
+                <line number="258" hits="1" branch="false" />
+                <line number="259" hits="1" branch="false" />
+                <line number="261" hits="2" branch="false" />
+                <line number="262" hits="1" branch="false" />
+                <line number="263" hits="1" branch="false" />
+                <line number="264" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAgendamentoEmQueUsuarioTemAlergiaDaVacinaLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="294" hits="1" branch="false" />
+                <line number="295" hits="1" branch="false" />
+                <line number="296" hits="1" branch="false" />
+                <line number="297" hits="1" branch="false" />
+                <line number="298" hits="1" branch="false" />
+                <line number="299" hits="1" branch="false" />
+                <line number="301" hits="1" branch="false" />
+                <line number="302" hits="1" branch="false" />
+                <line number="304" hits="1" branch="false" />
+                <line number="305" hits="1" branch="false" />
+                <line number="307" hits="1" branch="false" />
+                <line number="308" hits="1" branch="false" />
+                <line number="310" hits="1" branch="false" />
+                <line number="312" hits="2" branch="false" />
+                <line number="313" hits="1" branch="false" />
+                <line number="314" hits="1" branch="false" />
+                <line number="315" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAgendamentoParaUsuarioInvalidoLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="182" hits="1" branch="false" />
+                <line number="183" hits="1" branch="false" />
+                <line number="185" hits="1" branch="false" />
+                <line number="186" hits="2" branch="false" />
+                <line number="187" hits="1" branch="false" />
+                <line number="188" hits="1" branch="false" />
+                <line number="189" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAgendamentoParaUsuarioMenorDeIdadeLancaExcecao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="192" hits="1" branch="false" />
+                <line number="193" hits="1" branch="false" />
+                <line number="194" hits="1" branch="false" />
+                <line number="195" hits="1" branch="false" />
+                <line number="197" hits="1" branch="false" />
+                <line number="198" hits="1" branch="false" />
+                <line number="200" hits="1" branch="false" />
+                <line number="201" hits="2" branch="false" />
+                <line number="202" hits="1" branch="false" />
+                <line number="203" hits="1" branch="false" />
+                <line number="204" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateSituacaoAgendamentoTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="66" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="75" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+                <line number="87" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="39" hits="4" branch="false" />
+            <line number="40" hits="4" branch="false" />
+            <line number="41" hits="4" branch="false" />
+            <line number="42" hits="4" branch="false" />
+            <line number="43" hits="4" branch="false" />
+            <line number="45" hits="4" branch="false" />
+            <line number="46" hits="4" branch="false" />
+            <line number="48" hits="4" branch="false" />
+            <line number="49" hits="4" branch="false" />
+            <line number="51" hits="4" branch="false" />
+            <line number="52" hits="4" branch="false" />
+            <line number="54" hits="4" branch="false" />
+            <line number="55" hits="4" branch="false" />
+            <line number="57" hits="4" branch="false" />
+            <line number="58" hits="4" branch="false" />
+            <line number="59" hits="4" branch="false" />
+            <line number="60" hits="4" branch="false" />
+            <line number="61" hits="4" branch="false" />
+            <line number="62" hits="4" branch="false" />
+            <line number="63" hits="4" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="87" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="102" hits="1" branch="false" />
+            <line number="103" hits="1" branch="false" />
+            <line number="104" hits="1" branch="false" />
+            <line number="106" hits="1" branch="false" />
+            <line number="107" hits="1" branch="false" />
+            <line number="109" hits="1" branch="false" />
+            <line number="110" hits="1" branch="false" />
+            <line number="111" hits="1" branch="false" />
+            <line number="112" hits="1" branch="false" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
+            <line number="117" hits="1" branch="false" />
+            <line number="118" hits="1" branch="false" />
+            <line number="119" hits="1" branch="false" />
+            <line number="121" hits="1" branch="false" />
+            <line number="122" hits="1" branch="false" />
+            <line number="124" hits="1" branch="false" />
+            <line number="125" hits="1" branch="false" />
+            <line number="127" hits="1" branch="false" />
+            <line number="128" hits="1" branch="false" />
+            <line number="129" hits="1" branch="false" />
+            <line number="131" hits="1" branch="false" />
+            <line number="132" hits="1" branch="false" />
+            <line number="134" hits="1" branch="false" />
+            <line number="135" hits="1" branch="false" />
+            <line number="136" hits="1" branch="false" />
+            <line number="137" hits="1" branch="false" />
+            <line number="140" hits="1" branch="false" />
+            <line number="141" hits="1" branch="false" />
+            <line number="142" hits="1" branch="false" />
+            <line number="143" hits="1" branch="false" />
+            <line number="144" hits="1" branch="false" />
+            <line number="146" hits="1" branch="false" />
+            <line number="147" hits="1" branch="false" />
+            <line number="149" hits="1" branch="false" />
+            <line number="150" hits="1" branch="false" />
+            <line number="152" hits="1" branch="false" />
+            <line number="153" hits="1" branch="false" />
+            <line number="154" hits="1" branch="false" />
+            <line number="156" hits="1" branch="false" />
+            <line number="158" hits="1" branch="false" />
+            <line number="159" hits="1" branch="false" />
+            <line number="162" hits="1" branch="false" />
+            <line number="163" hits="1" branch="false" />
+            <line number="164" hits="1" branch="false" />
+            <line number="165" hits="1" branch="false" />
+            <line number="166" hits="1" branch="false" />
+            <line number="168" hits="1" branch="false" />
+            <line number="169" hits="1" branch="false" />
+            <line number="171" hits="1" branch="false" />
+            <line number="172" hits="1" branch="false" />
+            <line number="174" hits="1" branch="false" />
+            <line number="175" hits="1" branch="false" />
+            <line number="176" hits="1" branch="false" />
+            <line number="178" hits="3" branch="false" />
+            <line number="179" hits="1" branch="false" />
+            <line number="182" hits="1" branch="false" />
+            <line number="183" hits="1" branch="false" />
+            <line number="185" hits="1" branch="false" />
+            <line number="186" hits="2" branch="false" />
+            <line number="187" hits="1" branch="false" />
+            <line number="188" hits="1" branch="false" />
+            <line number="189" hits="1" branch="false" />
+            <line number="192" hits="1" branch="false" />
+            <line number="193" hits="1" branch="false" />
+            <line number="194" hits="1" branch="false" />
+            <line number="195" hits="1" branch="false" />
+            <line number="197" hits="1" branch="false" />
+            <line number="198" hits="1" branch="false" />
+            <line number="200" hits="1" branch="false" />
+            <line number="201" hits="2" branch="false" />
+            <line number="202" hits="1" branch="false" />
+            <line number="203" hits="1" branch="false" />
+            <line number="204" hits="1" branch="false" />
+            <line number="207" hits="1" branch="false" />
+            <line number="208" hits="1" branch="false" />
+            <line number="209" hits="1" branch="false" />
+            <line number="210" hits="1" branch="false" />
+            <line number="212" hits="1" branch="false" />
+            <line number="213" hits="1" branch="false" />
+            <line number="215" hits="1" branch="false" />
+            <line number="216" hits="2" branch="false" />
+            <line number="217" hits="1" branch="false" />
+            <line number="218" hits="1" branch="false" />
+            <line number="219" hits="1" branch="false" />
+            <line number="222" hits="1" branch="false" />
+            <line number="223" hits="1" branch="false" />
+            <line number="224" hits="1" branch="false" />
+            <line number="225" hits="1" branch="false" />
+            <line number="226" hits="1" branch="false" />
+            <line number="228" hits="1" branch="false" />
+            <line number="229" hits="1" branch="false" />
+            <line number="231" hits="1" branch="false" />
+            <line number="232" hits="1" branch="false" />
+            <line number="234" hits="1" branch="false" />
+            <line number="235" hits="1" branch="false" />
+            <line number="237" hits="2" branch="false" />
+            <line number="238" hits="1" branch="false" />
+            <line number="239" hits="1" branch="false" />
+            <line number="240" hits="1" branch="false" />
+            <line number="243" hits="1" branch="false" />
+            <line number="244" hits="1" branch="false" />
+            <line number="245" hits="1" branch="false" />
+            <line number="246" hits="1" branch="false" />
+            <line number="247" hits="1" branch="false" />
+            <line number="249" hits="1" branch="false" />
+            <line number="250" hits="1" branch="false" />
+            <line number="252" hits="1" branch="false" />
+            <line number="253" hits="1" branch="false" />
+            <line number="255" hits="1" branch="false" />
+            <line number="256" hits="1" branch="false" />
+            <line number="257" hits="1" branch="false" />
+            <line number="258" hits="1" branch="false" />
+            <line number="259" hits="1" branch="false" />
+            <line number="261" hits="2" branch="false" />
+            <line number="262" hits="1" branch="false" />
+            <line number="263" hits="1" branch="false" />
+            <line number="264" hits="1" branch="false" />
+            <line number="267" hits="1" branch="false" />
+            <line number="268" hits="1" branch="false" />
+            <line number="269" hits="1" branch="false" />
+            <line number="270" hits="1" branch="false" />
+            <line number="271" hits="1" branch="false" />
+            <line number="273" hits="1" branch="false" />
+            <line number="274" hits="1" branch="false" />
+            <line number="276" hits="1" branch="false" />
+            <line number="277" hits="1" branch="false" />
+            <line number="279" hits="1" branch="false" />
+            <line number="280" hits="1" branch="false" />
+            <line number="281" hits="1" branch="false" />
+            <line number="282" hits="1" branch="false" />
+            <line number="283" hits="1" branch="false" />
+            <line number="285" hits="1" branch="false" />
+            <line number="286" hits="1" branch="false" />
+            <line number="288" hits="1" branch="false" />
+            <line number="289" hits="1" branch="false" />
+            <line number="290" hits="1" branch="false" />
+            <line number="291" hits="1" branch="false" />
+            <line number="294" hits="1" branch="false" />
+            <line number="295" hits="1" branch="false" />
+            <line number="296" hits="1" branch="false" />
+            <line number="297" hits="1" branch="false" />
+            <line number="298" hits="1" branch="false" />
+            <line number="299" hits="1" branch="false" />
+            <line number="301" hits="1" branch="false" />
+            <line number="302" hits="1" branch="false" />
+            <line number="304" hits="1" branch="false" />
+            <line number="305" hits="1" branch="false" />
+            <line number="307" hits="1" branch="false" />
+            <line number="308" hits="1" branch="false" />
+            <line number="310" hits="1" branch="false" />
+            <line number="312" hits="2" branch="false" />
+            <line number="313" hits="1" branch="false" />
+            <line number="314" hits="1" branch="false" />
+            <line number="315" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_testes.AlergiaTest" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_testes\AlergiaTest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="DeleteAlergiaTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertAlergiaTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="false" />
+                <line number="8" hits="1" branch="false" />
+                <line number="10" hits="1" branch="false" />
+                <line number="11" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="1" branch="false" />
+            <line number="8" hits="1" branch="false" />
+            <line number="10" hits="1" branch="false" />
+            <line number="11" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_testes.ServiceFactory" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_testes\ServiceFactory.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="CreateContext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="25" branch="false" />
+                <line number="9" hits="25" branch="false" />
+                <line number="10" hits="25" branch="false" />
+                <line number="11" hits="25" branch="false" />
+                <line number="12" hits="25" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateUsuarioService" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="14" hits="20" branch="false" />
+                <line number="15" hits="24" branch="true" condition-coverage="100% (2/2)" />
+                <line number="16" hits="4" branch="false" />
+                <line number="18" hits="16" branch="false" />
+                <line number="19" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateAlergiaService" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="21" hits="3" branch="false" />
+                <line number="22" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="23" hits="2" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateAgendaService" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="28" hits="17" branch="false" />
+                <line number="29" hits="18" branch="true" condition-coverage="100% (2/2)" />
+                <line number="30" hits="1" branch="false" />
+                <line number="32" hits="16" branch="false" />
+                <line number="33" hits="17" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateVacinaService" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="35" hits="16" branch="false" />
+                <line number="36" hits="18" branch="true" condition-coverage="100% (2/2)" />
+                <line number="37" hits="2" branch="false" />
+                <line number="39" hits="14" branch="false" />
+                <line number="40" hits="16" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="25" branch="false" />
+            <line number="9" hits="25" branch="false" />
+            <line number="10" hits="25" branch="false" />
+            <line number="11" hits="25" branch="false" />
+            <line number="12" hits="25" branch="false" />
+            <line number="14" hits="20" branch="false" />
+            <line number="15" hits="24" branch="true" condition-coverage="100% (2/2)" />
+            <line number="16" hits="4" branch="false" />
+            <line number="18" hits="16" branch="false" />
+            <line number="19" hits="20" branch="false" />
+            <line number="21" hits="3" branch="false" />
+            <line number="22" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="23" hits="2" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="3" branch="false" />
+            <line number="28" hits="17" branch="false" />
+            <line number="29" hits="18" branch="true" condition-coverage="100% (2/2)" />
+            <line number="30" hits="1" branch="false" />
+            <line number="32" hits="16" branch="false" />
+            <line number="33" hits="17" branch="false" />
+            <line number="35" hits="16" branch="false" />
+            <line number="36" hits="18" branch="true" condition-coverage="100% (2/2)" />
+            <line number="37" hits="2" branch="false" />
+            <line number="39" hits="14" branch="false" />
+            <line number="40" hits="16" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_testes.UsuarioTest" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_testes\UsuarioTest.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="&lt;FindUsuarioByIdInexistenteDeveriaRetornarException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteUsuarioByIdTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="FindUsuarioByIdInexistenteDeveriaRetornarException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="49" hits="3" branch="false" />
+                <line number="50" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="FindUsuarioByIdTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertUsuarioTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="false" />
+                <line number="8" hits="1" branch="false" />
+                <line number="10" hits="1" branch="false" />
+                <line number="11" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="1" branch="false" />
+            <line number="8" hits="1" branch="false" />
+            <line number="10" hits="1" branch="false" />
+            <line number="11" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="49" hits="3" branch="false" />
+            <line number="50" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="vacinacao_testes.VacinaTest" filename="C:\Users\joaopedrosf\Desktop\UFG - Arquivos\Quinto Período\Construção de Software\vacinacao_testes\VacinaTest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="DeleteVacinaTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="InsertVacinaTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="false" />
+                <line number="7" hits="1" branch="false" />
+                <line number="9" hits="1" branch="false" />
+                <line number="10" hits="1" branch="false" />
+                <line number="12" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="1" branch="false" />
+            <line number="7" hits="1" branch="false" />
+            <line number="9" hits="1" branch="false" />
+            <line number="10" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

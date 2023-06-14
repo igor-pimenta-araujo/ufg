@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .error {
+            color: red;
+        }
+
+        .w100 {
+            width: 100vw;
+        }
+
+        .h100 {
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex flex-col w100 h100 justify-center items-center bg-purple-800">
+        <section class="bg-gray-100">
+            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+                <div class="flex justify-center items-center px-4 py-16">
+                    
+
+                    <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+                        <form action="/polls/atualizar/{{candidato.id}}/" method="post" class="space-y-4">
+                            {% csrf_token %}
+                            <div>
+                                <label class="sr-only" for="name">Nome</label>
+                                <input class="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="Nome"
+                                    type="text" name="nome" id="name" value="{{candidato.nome}}" />
+                            </div>
+
+                            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                                <div>
+                                    <label class="sr-only" for="sexo">Sexo</label>
+                                    <input class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                                        placeholder="Sexo" name="sexo" type="text" value="{{candidato.sexo}}" id="sexo" />
+                                </div>
+
+                                <div>
+                                    <label class="sr-only" for="data_nasc">Data nascimento</label>
+                                    <input class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                                        placeholder="Data de nascimento" type="date" name="data_nascimento" value="{{data}}" id="data_nasc" />
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="sr-only" for="name">Cargo pretendido</label>
+                                <input class="w-full rounded-lg border-gray-200 p-3 text-sm" value="{{candidato.cargo_pretendido}}" name="cargo_pretendido" placeholder="Cargo pretendido"
+                                    type="text" id="name" />
+                            </div>
+
+                            <div>
+                                <label class="sr-only" for="message">Texto do curriculo</label>
+                                <input class="w-full rounded-lg border-gray-200 p-3 text-sm" value="{{candidato.texto_curriculo}}" placeholder="Texto do curriculo"
+                                    rows="8" name="texto_curriculo" id="message"></input>
+                            </div>
+
+                            <div class="mt-4 flex justify-between items-center">
+                                <a href="/polls" 
+                                    class="inline-flex w-full items-center justify-center rounded-lg bg-gray-500 px-5 py-3 text-white sm:w-auto">
+                                    <span class="font-medium"> Voltar </span>
+                                </a>
+                                <button type="submit"
+                                    class="inline-flex w-full items-center justify-center rounded-lg bg-black px-5 py-3 text-white sm:w-auto">
+                                    <span class="font-medium"> Enviar </span>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="ml-3 h-5 w-5" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>

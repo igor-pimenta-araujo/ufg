@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: vacina-nginx
+    restart: unless-stopped
+    ports:
+      - 8000:80
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+    networks:
+      - vacina
+  node:
+    build: 
+      context: .
+      dockerfile: ./docker/node/Dockerfile
+    container_name: vacina-node
+    ports:
+      - 8888:3000
+    volumes:
+      - ./:/var/www
+    networks:
+      - vacina
+networks:
+  vacina:
+    driver: bridge

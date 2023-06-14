@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .error {
+            color: red;
+        }
+
+        .w100 {
+            width: 100vw;
+        }
+
+        .h100 {
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex flex-col w100 h100 justify-center items-center bg-purple-800"> 
+        <section class="bg-gray-100">
+            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+                <a href="/polls/candidatos/listar"> Voltar a lista</a>
+                <div class="flex justify-center items-center px-4 py-16">
+
+                    <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+                        <div class="overflow-hidden overflow-x-auto rounded-lg border border-gray-200">
+                            <table class="min-w-full divide-y divide-gray-200 text-sm">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
+                                            <div class="flex items-center gap-2">
+                                                ID
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700"
+                                                    viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </th>
+                                        <th class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
+                                            <div class="flex items-center gap-2">
+                                                Nome
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700"
+                                                    viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </th>
+                                        <th class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
+                                            <div class="flex items-center gap-2">
+                                                Data de Nascimento
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700"
+                                                    viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </th>
+                                        <th class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
+                                            <div class="flex items-center gap-2">
+                                                Cargo Pretendido
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700"
+                                                    viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </th>
+                                        <th class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
+                                            <div class="flex items-center gap-2">
+                                                Texto do curriculo
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700"
+                                                    viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </th>
+                                        <th class="px-4 py-2"></th>
+                                        <th class="px-4 py-2"></th>
+                                    </tr>
+                                </thead>
+
+                                <tbody class="divide-y divide-gray-200">
+                                    {% if candidato %}
+                                    <tr>
+                                        <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                                            {{candidato.id}}
+                                        </td>
+                                        <td class="whitespace-nowrap px-4 py-2 text-gray-700">
+                                            {{candidato.nome}}
+                                        </td>
+                                        <td class="whitespace-nowrap px-4 py-2 text-gray-700">{{candidato.data_nasc}}</td>
+                                        <td class="whitespace-nowrap px-4 py-2 text-gray-700">{{candidato.cargo_pretendido}}</td>
+                                        <td class="whitespace-nowrap px-4 py-2 text-gray-700">{{candidato.texto_curriculo}}</td>
+                                        <td class="whitespace-nowrap px-4 py-2">
+                                            <a href="/polls/delete-candidate/{{candidato.id}}" class="text-sm font-medium text-blue-600 hover:underline">
+                                                Excluir
+                                            </a>
+                                        </td>
+                                        <td class="whitespace-nowrap px-4 py-2">
+                                            <a href="/polls/atualizar/{{candidato.id}}" class="text-sm font-medium text-blue-600 hover:underline">
+                                                Atualizar
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>

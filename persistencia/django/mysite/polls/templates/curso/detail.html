@@ -1,0 +1,7 @@
+{% if curso %}
+        <h1>{{curso.nome}}</h1>
+        <p>{{curso.descricao}}</p>
+        <p>{{curso.carga_horaria}}</p>
+{% else %}
+    <p>No cursos are available.</p>
+{% endif %}

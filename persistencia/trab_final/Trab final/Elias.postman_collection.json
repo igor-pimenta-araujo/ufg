@@ -1,0 +1,404 @@
+{
+	"info": {
+		"_postman_id": "a8c400b0-d271-4054-986b-6b9dafa6a2ae",
+		"name": "Elias",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25310420"
+	},
+	"item": [
+		{
+			"name": "Agenda",
+			"item": [
+				{
+					"name": "Insert Agenda",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\": \"2023-01-20\",\r\n    \"hora\": \"10:30:00\",\r\n    \"usuario\": {\r\n        \"id\": 2\r\n    },\r\n    \"vacina\": {\r\n        \"id\": 3\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/agenda",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agenda"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find all agendas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/agenda",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agenda"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find agendas by situacao",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/agenda/situacao?situacao=Realizado",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agenda",
+								"situacao"
+							],
+							"query": [
+								{
+									"key": "situacao",
+									"value": "Realizado"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dar baixa no agendamento",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/agenda/situacao?situacao=Realizado&id=1&observacoes=observacao legal",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agenda",
+								"situacao"
+							],
+							"query": [
+								{
+									"key": "situacao",
+									"value": "Realizado"
+								},
+								{
+									"key": "id",
+									"value": "1"
+								},
+								{
+									"key": "observacoes",
+									"value": "observacao legal"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find agendas by data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/agenda/data?data=2023-01-20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agenda",
+								"data"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "2023-01-20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete agenda by id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/agenda/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agenda",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Vacina",
+			"item": [
+				{
+					"name": "Insert Vacina",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \"Febre amarela\",\r\n    \"descricao\": \"Não fique doente\",\r\n    \"doses\": 3,\r\n    \"periodicidade\": \"anos\",\r\n    \"intervalo\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/vacina",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"vacina"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find all vacinas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/vacina",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"vacina"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Vacina",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/vacina/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"vacina",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Alergia",
+			"item": [
+				{
+					"name": "Insert Alergia",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Intolerancia a frutose\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/alergia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"alergia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find all alergias",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/alergia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"alergia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Alergia",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/alergia/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"alergia",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "Insert Usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Zezinho\",\r\n    \"dataNascimento\": \"2001-03-19\",\r\n    \"sexo\": \"m\",\r\n    \"logradouro\": \"Rua 2\",\r\n    \"numero\": 150,\r\n    \"setor\": \"Centro\",\r\n    \"cidade\": \"Goiânia\",\r\n    \"uf\": \"GO\",\r\n    \"alergias\": [\r\n        {\r\n            \"id\": 2\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find all usuarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find Usuario by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/usuario/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Usuario",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/usuario/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"usuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

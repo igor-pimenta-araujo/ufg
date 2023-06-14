@@ -1,0 +1,11 @@
+{% if cursos %}
+    <ul>
+    {% for curso in cursos %}
+        <li><a href="/polls/{{ curso.id }}/">{{curso.nome}}</a></li>
+        
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+
